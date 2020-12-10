@@ -5,11 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JS, Lesson-1</title>
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="p-5">
+  <div class="container container-lg">
+    <div class="exercise text-center mb-5 text-info">
+      <h2 class="heading mb-3 text-danger">FizzBuzz</h2>
+      
+      <form class="math-form w-75 mb-5 mx-auto bg-light p-3" action="https://echo.htmlacademy.ru" method="POST">
+        
+        <div class="form-group mb-4 pl-0">
+          <input class="form-control value-input" type="number" id="value-input" name="value" aria-label="Raqamni kiriting" placeholder="Raqam" step="any" required>
+        </div>
+        
+        <button class="btn btn-success d-block w-100 mb-2" type="submit">Natijani ko'rsat</button>
+      </form>
+      
+      <span class="reslut d-none w-50 mx-auto p-2 border border-info rounded text-info"></span>
+    </div>
+  </div>
   
-
-  <script src="js/main.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
 </body>
 </html>
