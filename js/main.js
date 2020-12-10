@@ -21,7 +21,7 @@
 // }else {
 // console.log(`Not defined`)
 // }
-
+var elResult = document.querySelector('.result');
 var elMathForm = document.querySelector('.math-form');
 var elValueInput = elMathForm.querySelector('.value-input');
 
